@@ -6,7 +6,7 @@ A comprehensive time series analysis project predicting the monthly sales for th
 
 ### 🎯 Project Goal
 
-The primary objective was to develop robust ARIMA models to forecast sales for **January, February and March 2018** for three separate Business Units (BU1, BU2, BU3) based on historical data spanning from February 2015 to January 2018.
+The primary objective was to develop robust ARIMA models to forecast sales for **January, February and March 2018** for three separate Business Units (BU1, BU2, BU3) based on historical data spanning from February 2015 to December 2017.
 
 ---
 
@@ -68,6 +68,6 @@ The selected and validated ARIMA models were used to generate the 3-month sales 
 
 * `Monthly_Sales_Forecasting.ipynb`: The main Jupyter Notebook containing all the code, analysis, visualizations and model building steps.
 * `USA_Firm_Sales_data.csv`: The source dataset used for the analysis.
-* `raw_time_series_plot` : The plot showing BU1, BU2 and BU3 sales all together from 2015 to 2018.
+* `raw_time_series_plot` : The plot showing BU1, BU2 and BU3 sales all together from 2015 to 2017.
 
 ---
