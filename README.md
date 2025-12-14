@@ -28,7 +28,7 @@ The primary objective was to develop robust ARIMA models to forecast sales for *
 
 | Original Time Series Plot |
 | :---: |
-| ![Plot of the three raw time series (BU1, BU2, and BU3) over time showing an upward trend](Monthly_Sales_Forecasting_Python/raw_time_series_plot.jpg) |
+| ![Plot of the three raw time series (BU1, BU2, and BU3) over time showing an upward trend](raw_time_series_plot.jpg) |
 | *Caption: Plot of the three raw time series (BU1, BU2, BU3) over time, showing non-stationarity with an evident upward trend.* |
 
 #### 2. Stationarity Testing & Differencing
