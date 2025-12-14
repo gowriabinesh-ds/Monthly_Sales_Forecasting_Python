@@ -52,8 +52,6 @@ The `pmdarima` library's `auto_arima` function was employed to efficiently searc
 
 #### 5. Final Forecasting
 
-#### 5. Final Forecasting
-
 The selected and validated ARIMA models were used to generate the 3-month sales forecast for 2018.
 
 **Final Sales Forecasts (Millions USD):**
@@ -72,3 +70,4 @@ The selected and validated ARIMA models were used to generate the 3-month sales 
 * `USA_Firm_Sales_data.csv`: The source dataset used for the analysis.
 * `raw_time_series_plot` : The plot showing BU1, BU2 and BU3 sales all together from 2015 to 2018.
 
+---
