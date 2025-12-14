@@ -8,6 +8,8 @@ A comprehensive time series analysis project predicting the monthly sales for th
 
 The primary objective was to develop robust ARIMA models to forecast sales for **January, February and March 2018** for three separate Business Units (BU1, BU2, BU3) based on historical data spanning from February 2015 to January 2018.
 
+---
+
 ### 🛠️ Technical Stack
 
 * **Language:** Python
@@ -20,13 +22,14 @@ The primary objective was to develop robust ARIMA models to forecast sales for *
 
 #### 1. Data Preparation and Initial Analysis
 * **Data Source:** `USA_Firm_Sales_data.csv`
-* **Time Series Construction:** Combined `Year` and `Month` columns to create a proper datetime index for accurate time series processing.
-* **Exploration:** Initial plotting revealed clear **non-stationarity** in all three series, characterized by visible upward trends, which is a crucial first step in ARIMA modeling.
+* **Cleaning:** Ensured no missing values (`NaN`s) were present in the dataset.
+* **Time Series Indexing:** Converted the `Year` and `Month` columns into a proper datetime index for accurate time series processing.
+* **Visualization:** Initial plotting revealed clear **non-stationarity** in all three series, characterized by visible upward trends.
 
-| Original Time Series Plot (Illustrating Non-Stationarity) |
+| Original Time Series Plot |
 | :---: |
-| **[INSERT IMAGE HERE: Plot of the three raw time series (BU1, BU2, and BU3) over time showing an upward trend]** |
-| *Caption: The raw time series data shows a distinct upward trend across all BUs, indicating a non-stationary process.* |
+| ![Plot of the three raw time series (BU1, BU2, and BU3) over time showing an upward trend](Monthly_Sales_Forecasting_Python/raw_time_series_plot.jpg) |
+| *Caption: Plot of the three raw time series (BU1, BU2, BU3) over time, showing non-stationarity with an evident upward trend.* |
 
 #### 2. Stationarity Testing & Differencing
 * **Formal Test:** Applied the **Augmented Dickey-Fuller (ADF) test** to formally confirm non-stationarity for each series.
